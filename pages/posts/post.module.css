@@ -1,0 +1,27 @@
+.article {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 3px #555;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.article h1 {
+    text-transform: uppercase;
+}
+.article p {
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
